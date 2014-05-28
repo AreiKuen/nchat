@@ -1,7 +1,7 @@
 //TO DO
 //svaki chat treba da ima poseban media div i user listu
 
-var express = require('express') //moduli koje koristimo za server
+var express = require('express.io') //moduli koje koristimo za server
   , server = express() //express server
   , http = require('http') //http server
   , srv = http.createServer(server)
