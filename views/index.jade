@@ -1,0 +1,18 @@
+extends layout
+
+block users
+	div#usersHolder
+		h2#usersTitle USERS
+		div#users
+
+block conversation
+	div#conversationHolder
+		div#tabHolder
+		div#chatControlsHolder
+			textarea#chatInput(placeholder='Come on, type something!', spellcheck='false')
+			input#sendButton(type='button', value='Send')
+
+block loadanim
+	div#loadHolder
+		img#loadimg(src='/images/spinner.gif', alt='Loading...')
+		p#loadText Connecting to server...

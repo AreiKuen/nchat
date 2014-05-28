@@ -1,0 +1,21 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='icon', type='image/ico', href='/images/favicon.ico')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/smoke.css')
+    script(src='/javascripts/jquery.min.js')
+    script(src='/socket.io/socket.io.js')
+    script(src='/javascripts/jquery.titlealert.min.js')
+    script(src='/javascripts/smoke.js')
+    script(src='/javascripts/nchat.js')
+    script(src='/javascripts/nchat-ui.js')
+  body
+    div#container
+        block users
+        block conversation
+    div#loading
+        block loadanim
+        div#copyrightHolder
+            p#copyright Arei Kuen &copy; 2013.
