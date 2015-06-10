@@ -9,7 +9,7 @@ var express = require('express.io') //moduli koje koristimo za server
   , routes = require('./routes') 
   , user = require('./routes/user')
   , path = require('path')
-  , VERSION = 'v0.5.5.';
+  , VERSION = 'v0.5.6';
 
 srv.listen(3000); //server slusa na portu 3000
 console.log('Server started and listening.');

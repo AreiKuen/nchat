@@ -1,1 +1,1 @@
-{"name":"nChat","version":"0.5.5","private":false,"scripts":{"start":"server.js"},"dependencies":{"socket.io":"*","express.io":"*","jade":"*","stylus":"*"},"engines":{"node":"*"},"env":{"npm_config_rebuild_bundle":false,"npm_config_production":true}}
+{"name":"nChat","version":"0.5.6","private":false,"scripts":{"start":"server.js"},"dependencies":{"socket.io":"*","express.io":"*","jade":"*","stylus":"*"},"engines":{"node":"*"},"env":{"npm_config_rebuild_bundle":false,"npm_config_production":true}}
